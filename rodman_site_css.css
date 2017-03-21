@@ -1,0 +1,18 @@
+#simplemodal-overlay {background-color:#000;}
+#simplemodal-container {height:350px; width:355px; color:#bbb; background-color:#fff; border:4px solid #444; }
+
+#simplemodal-container a {color:#ddd;}
+#simplemodal-container a.modalCloseImg {background:url('https://zurigroup2.com/RodmanRideforKids/x.png') no-repeat; width:25px; height:29px; display:inline; z-index:3200; position:absolute; top:-15px; right:-16px; cursor:pointer;}
+#simplemodal-container #basic-modal-content {padding:8px;}
+
+#simplemodal-container iframe {padding:10px 0 0 0px;text-align: center; height: 265px; width: 345px; position: relative; z-index:10;}
+
+#simplemodal-container .simplemodal-wrap .simplemodal-data h2 {
+font-family: KomikaAxisRegular, arial, serif;
+text-transform: uppercase;
+padding: 12px 12px 16px 12px;
+font-size: 16pt;
+letter-spacing: 0.05em;
+color: #ffffff;
+background-color: #2695e3;
+}

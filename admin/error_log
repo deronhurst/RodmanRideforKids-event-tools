@@ -1,0 +1,1 @@
+[06-Jun-2012 10:48:13] PHP Warning:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = '8'' at line 5 in /home/zurigrou/public_html/RodmanRideforKids/2012/lib/ez_sql.php on line 175

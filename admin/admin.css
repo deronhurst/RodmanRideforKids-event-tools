@@ -1,0 +1,195 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	text-align: center;
+	background-color: #F1F0F0;
+	font-family: Verdana;
+	font-size: 12px;
+}
+a:-webkit-any-link{
+	color: #577c93;	
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#inner {
+	float:left;
+	width: 960px;
+	background-color: #fff;
+}
+
+#header {
+	height: 125px;
+	text-align: right;
+	padding-right: 75px;
+	font-size: 30px;
+	color: #7AC142;
+	background: #000 url('rodman_logo.png') no-repeat top left;
+}
+
+#search form {
+	float:left;
+	padding: 5px 10px;
+	background-color: #000;
+	color: #7AC142;
+}
+#search form div {
+	clear:both;
+	padding: 3px 0;
+}
+
+#search form label {
+	clear:both;
+	display:block;
+	float:left;
+	font-weight:bold;
+	width: 225px;
+}
+
+#search form input.formfield {
+	float: left;
+	display:block;
+}
+
+#top_nav {
+	float: left;
+	height:25px;
+	color: #fff;
+	width: 940px;
+	padding: 5px 10px 0 10px;
+	background-color: #000;
+}
+
+#top_nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#top_nav li {
+	display:block;
+	float:left;
+}
+
+#top_nav li a:link, #top_nav li a:visited {
+	display:block;
+	float: left;
+	color: #7AC142;
+	padding: 5px 10px 6px 10px;
+	margin-right: 10px;
+}
+
+#top_nav li a.active {
+	color: #577c93;
+	background-color: #fff;
+}
+
+#content {
+	clear: both;
+	padding: 15px 15px 30px 15px;
+	background-color: #fff;
+}
+
+#summary_table {
+	width: 400px;
+}
+
+.message_area {
+	margin-top: 20px;
+	padding:10px;
+}
+.message_area h3 {
+	margin-top: 0;
+}
+
+#messages_awaiting {
+	background-color: #EFEEE0;
+	border:1px solid #AFAF8E;
+}
+#messages_approved {
+	background-color: #C9EFC2;
+	border:1px solid #1D5F12;
+}
+#messages_rejected {
+	background-color: #EFC2C4;
+	border: 1px solid #AF2B31;
+}
+
+
+table {
+	border-collapse: collapse;
+}
+
+table, td, th {
+	text-align:left;
+	font-size:11px;
+}
+
+th {
+	padding: 2px;
+	color: #7AC142;
+	border: 1px solid #000;
+	background-color: #000;
+}
+
+td {
+	padding: 2px;
+	border: 1px solid #3B5765;
+}
+
+td.actions_cell {
+	text-align:center;
+}
+
+th.actions_header {
+	width: 70px;
+	text-align: center;
+}
+
+tr.justadded td {
+	background-color: #DEF4E0;
+}
+
+#add_phrase_form {
+	margin: 10px 0 20px 0;
+}
+
+.success {
+	padding: 10px;
+	color: #4A6D4D;
+	margin-bottom: 20px;
+	font-weight: bold;
+	border: 1px solid #4A6D4D;
+	background-color: #DEF4E0;
+}
+
+
+tr.approved td {
+	background-color: #DEF4E0;
+}
+tr.deleted td {
+	background-color: #F2DCE3;
+}
+tr.flagged td {
+	background-color: #F2F1DC;
+}
+
+a.export_link :link, a.export_link:visited {
+	color: #0197D6;
+}
+a.export_link:hover {
+	color: #087EAD;
+}
+
+
+input.datepick {
+	margin-right: 5px;
+}
+input.submit_btn {
+	margin-left:20px;
+}

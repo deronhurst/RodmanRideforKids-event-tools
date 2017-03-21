@@ -1,0 +1,57 @@
+#event_list .event_row span {
+	display: inline-block;
+	padding: 5px;
+}
+
+.RideLanding .Link {
+    background: none repeat scroll 0 0 #7ac043;
+    color: #fff;
+    float: left;
+    font-size: 16px;
+    line-height: 38px;
+    padding: 0 10px;
+	margin-right:10px;
+}
+
+#simplemodal-overlay {background-color:#000;}
+#simplemodal-container {height:320px; width:600px; color:#bbb; border:0; padding:0;}
+#simplemodal-container a {color:#ddd;}
+#simplemodal-container a.modalCloseImg {background:url('modal_close_x.png') no-repeat; width:25px; height:29px; display:inline; z-index:3200; position:absolute; top:12px; right:-0px; cursor:pointer;}
+
+#event_list_modal h2 {
+	background-color: #3498DB;
+	color: #fff;
+	margin: 0;
+	font-size: 16px;
+	padding: 10px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#event_list_modal #elm_content {
+	background-color: #fff;
+	padding: 10px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#event_list_modal .event_row {
+	width: 50%;
+	display: inline-block;
+	padding: 0 0 10px 0;
+}
+
+#event_list_modal .event_row a:link,
+#event_list_modal .event_row a:visited {
+	color: #3498db;
+	font-size: 13px;
+	text-transform: none;
+}
